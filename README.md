@@ -41,7 +41,7 @@ Le mot de passe doit remplir les critères suivants :
 
 1. **Un petit caractère** : Doit contenir au moins une lettre minuscule (`a-z`).
 2. **Un grand caractère** : Doit contenir au moins une lettre majuscule (`A-Z`).
-3. **Un caractère spécial** : Doit contenir au moins un caractère spécial (ex : `!@#$%^&*()`).
+3. **Un caractère spécial** : Doit contenir au moins un caractère spécial (ex : `/[!@#$%^&*(),.?":;{}|<>]/`).
 4. **Une longueur minimale** : Doit contenir au moins 8 caractères.
 5. **Un chiffre** : Doit contenir au moins un chiffre (`0-9`).
 
