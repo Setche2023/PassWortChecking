@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anmeldung Seite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 class="title">Anmeldung</h2>
+    <div class="container">
+        <form action="">
+            <label for="user">Benutzer</label>
+            <input type="text" id="user" name="user" required>
+
+            <label for="pwd">Passwort</label>
+            <input type="password" id="pwd" name="pwd" required>
+
+            <input type="submit" value="Anmelden">
+        </form>
+    </div>
+
+    <div id="hinweis">
+        <!-- Hier wird die Meldung angezeigt -->
+         <!-- Beispiel: "Benutzername oder Passwort falsch!" -->
+          <!-- Diese Meldung wird durch JavaScript angezeigt -->
+        <h3>Das Passwort soll mindestens die folgenden Elements beinhalten</h3>   
+        <p id="letter" class="fehler">Ein kleiner Buchstabe</p>
+        <p id="capital" class="fehler">Ein großer Buchstabe</p>
+        <p id="besonderszeichen" class="fehler">Besonders Zeichen</p>
+        <p id="length" class="fehler">mindestens 8 Zeichens</p>
+        <p id="ziffer" class="fehler">Ein Ziffer</p>        
+        
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
